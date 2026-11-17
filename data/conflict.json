@@ -1,0 +1,33 @@
+{
+  "allowed_origins": [
+    "https://building.example.test"
+  ],
+  "steps": [
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://building.example.test/commissioning/primary",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "source-1.bin",
+        "status": 200,
+        "bytes": 108,
+        "sha256": "7414e9b319cf671eb94782c3a59e4b51317dcdeb8e9b59c2148249b05b7bc954"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://building.example.test/commissioning/primary",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "source-conflict.bin",
+        "status": 200,
+        "bytes": 108,
+        "sha256": "5067d09fc1a9e97b444ca53a750526248a05b7302ba97ad9019bd9195923890d"
+      }
+    }
+  ]
+}
