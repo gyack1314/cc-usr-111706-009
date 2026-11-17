@@ -1,0 +1,14 @@
+{
+  "kind": "evidence",
+  "revision": "r2",
+  "notice": "E-3",
+  "stage": "energized",
+  "scope": "building",
+  "campus": "C-1",
+  "site": "P-2",
+  "phase": "一期",
+  "building": "B-2",
+  "contractor": "甲建工集团",
+  "observed_on": "2026-07-01",
+  "claim": "B-2 楼送电"
+}

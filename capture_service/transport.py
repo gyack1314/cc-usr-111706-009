@@ -36,5 +36,6 @@ class Replay:
         self.position+=1
         receipt={'method':method,'url':url,'status':meta['status'],'body_sha256':meta['sha256'],
                  'bytes':len(raw),'credential_scope':credential_scope,'step':self.position}
+        if 'collected_on' in meta:receipt['collected_on']=meta['collected_on']
         self.receipts.append(receipt)
         return raw,receipt

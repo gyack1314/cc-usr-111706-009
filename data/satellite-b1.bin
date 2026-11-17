@@ -1,0 +1,13 @@
+{
+  "kind": "evidence",
+  "revision": "r2",
+  "notice": "SAT-1",
+  "stage": "construction",
+  "scope": "building",
+  "campus": "C-1",
+  "site": "P-1",
+  "phase": "一期",
+  "building": "B-1",
+  "observed_on": "2026-03-10",
+  "claim": "卫星影像显示 B-1 楼承台施工"
+}

@@ -1,0 +1,14 @@
+{
+  "kind": "evidence",
+  "revision": "r2",
+  "notice": "PR-3",
+  "stage": "permitted",
+  "scope": "building",
+  "campus": "C-1",
+  "site": "P-3",
+  "phase": "一期",
+  "building": "B-3",
+  "contractor": "甲建工集团",
+  "observed_on": "2026-05-10",
+  "claim": "B-3 数据楼取得施工许可"
+}

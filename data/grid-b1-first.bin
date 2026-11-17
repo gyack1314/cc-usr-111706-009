@@ -1,0 +1,13 @@
+{
+  "kind": "evidence",
+  "revision": "r2",
+  "notice": "E-1",
+  "stage": "energized",
+  "scope": "building",
+  "campus": "C-1",
+  "site": "P-1",
+  "phase": "一期",
+  "building": "B-1",
+  "observed_on": "2026-06-01",
+  "claim": "B-1 楼第一路市电送电"
+}

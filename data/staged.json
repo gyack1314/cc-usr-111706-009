@@ -1,0 +1,147 @@
+{
+  "allowed_origins": [
+    "https://facility.example.test"
+  ],
+  "steps": [
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://facility.example.test/permits/b1",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "permit-b1.bin",
+        "status": 200,
+        "bytes": 313,
+        "sha256": "910eef59e799fff2c990711fdc4828712c59e237b848f6fa1bcaf9c4a191085a",
+        "collected_on": "2026-01-16"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://facility.example.test/satellite/b1",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "satellite-b1.bin",
+        "status": 200,
+        "bytes": 277,
+        "sha256": "76de14b6352881c3dcdc3887c67829184b0516230d62c6137163743879f101e6",
+        "collected_on": "2026-03-12"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://facility.example.test/news/phase2",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "news-phase2.bin",
+        "status": 200,
+        "bytes": 279,
+        "sha256": "507fbf6a1d3e1b76c7d9b75f27bef82454eac2569d4ac9f01471eee3ffe36fff",
+        "collected_on": "2026-04-02"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://facility.example.test/contractor/rename",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "contractor-rename.bin",
+        "status": 200,
+        "bytes": 198,
+        "sha256": "2522a6f9fd79303633710a0252db9fe73d628dce90455c7150a3285ebb4d26f7",
+        "collected_on": "2026-05-02"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://facility.example.test/permits/b3",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "permit-b3.bin",
+        "status": 200,
+        "bytes": 301,
+        "sha256": "7643e7baf58b0a95fb97e1029546b951b94743415f124b21b69c0af4ab8824d6",
+        "collected_on": "2026-05-11"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://facility.example.test/grid/b1-first",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "grid-b1-first.bin",
+        "status": 200,
+        "bytes": 262,
+        "sha256": "7356a12f7494934c77bc29f83525f0eed093118209099be1b565d1119ca97fc3",
+        "collected_on": "2026-06-02"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://facility.example.test/news/retract-pr3",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "retract-pr3.bin",
+        "status": 200,
+        "bytes": 150,
+        "sha256": "9625bd3af9122285dc30dcc6d6e8ba7bc7a0deeff1fad11b52d5bd49708d0a96",
+        "collected_on": "2026-06-16"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://facility.example.test/grid/b2",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "grid-b2.bin",
+        "status": 200,
+        "bytes": 282,
+        "sha256": "b5542d3a4a897fd90e2a362d1a9e4173fc9255cabd5c9ae4766e171e6810f945",
+        "collected_on": "2026-07-02"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://facility.example.test/grid/b1-second",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "grid-b1-second.bin",
+        "status": 200,
+        "bytes": 262,
+        "sha256": "fb354d070bf501d8793a75e0dbf4f155402fe623bb096a76f5925253e43b9a49",
+        "collected_on": "2026-08-02"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://facility.example.test/operations/b1",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "ops-b1.bin",
+        "status": 200,
+        "bytes": 262,
+        "sha256": "814b4b9af953b548d0afc8b742ece3aade381cff51edeaf071e22b75cf625714",
+        "collected_on": "2026-09-16"
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "kind": "evidence",
+  "revision": "r2",
+  "notice": "N-2",
+  "stage": "construction",
+  "scope": "campus",
+  "campus": "C-1",
+  "phase": "二期",
+  "observed_on": "2026-04-01",
+  "claim": "园区二期开工，新增 4 栋数据楼",
+  "quantity": {
+    "buildings": 4
+  }
+}
